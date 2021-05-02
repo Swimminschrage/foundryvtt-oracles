@@ -1,7 +1,7 @@
 {
-  "name": "module",
-  "title": "New Module",
-  "description": "",
+  "name": "inspiration-oracles",
+  "title": "Inspiration Oracles",
+  "description": "Provides tables and tools for inspiring stories and characters within your games.",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
@@ -9,8 +9,8 @@
   "compatibleCoreVersion": "0.7.9",
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
+      "name": "Andy Schrage",
+      "url": "https://github.com/Swimminschrage",
       "discord": "discordID#0001"
     }
   ],
@@ -28,6 +28,15 @@
   ],
   "styles": [
     "/styles/module.css"
+  ],
+  "packs": [
+    {
+      "name": "ironsworntables",
+      "label": "Tables for Ironsworn",
+      "path": "packs/tables.db",
+      "entity": "RollTable",
+      "module": "inspiration-oracles"
+    }
   ],
   "languages": [
     {
